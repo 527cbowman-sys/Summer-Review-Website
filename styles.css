@@ -1,0 +1,41 @@
+body {
+    background-color: #fad676;
+}
+
+
+.navbar {
+    background-image: url("navbackground.png");
+}
+
+.navtext, .dropdown-item, .nav-link {
+    font-family: "smoothy", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 175%;
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-menu {
+    background-image: url("navbackground.png");
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-menu:hover {
+    border: none;
+    background-image: ("navbackground.png");
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-item:hover {
+    color: #cd3647;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.3s ease 0s;
+    font-size: 180%;
+}
+
+.navtext:hover, .nav-link:hover {
+    color: #cd3647;
+    transition: all 0.3s ease 0s;
+    font-size: 180%;
+}
