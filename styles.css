@@ -2,7 +2,6 @@ body {
     background-color: #fad676;
 }
 
-
 .navbar {
     background-image: url("navbackground.png");
 }
@@ -38,4 +37,18 @@ body {
     color: #cd3647;
     transition: all 0.3s ease 0s;
     font-size: 180%;
+}
+
+
+
+.titlepage {
+    position: absolute;
+    top: 21%;
+}
+
+.picturepage1hawaii {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 1%;
+    margin-bottom: 4%;
 }
