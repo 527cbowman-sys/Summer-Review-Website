@@ -195,3 +195,17 @@ a {
               5px 9px 13px #a71834, 
               5px 13px 21px #a71834;
 }
+
+.cardpics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 25px;
+    border: 2px solid #a71834;
+}
+
+.weatherwidget-io {
+    width: 100%;
+}
