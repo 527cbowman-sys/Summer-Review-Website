@@ -1,3 +1,10 @@
+html {
+    cursor: url("cursor.png"), auto;
+}
+:hover {
+    cursor: url("cursor.png"), auto;
+}
+
 body {
     background-color: #fad676;
 }
@@ -204,6 +211,7 @@ a {
     margin-bottom: 3%;
     border-radius: 25px;
     border: 2px solid #a71834;
+    width: 100%;
 }
 
 .weatherwidget-io {
@@ -212,4 +220,71 @@ a {
     display: block;
     margin: 0 auto;
     min-height: 300px;
+}
+
+.review {
+    margin-top: 2%;
+    border-radius: 25px;
+    border: 4px solid #a71834;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 10%;
+}
+.review:hover {
+    box-shadow: 5px 6px 7px #cd3647, 
+              5px 7px 9px #cd3647, 
+              5px 9px 13px #cd3647, 
+              5px 13px 21px #cd3647;
+    transition: all 0.3s ease 0s;
+    animation: bounce 1s;   
+}
+
+.reviewpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 25px;
+    border: 2px solid #a71834;
+    width: 70%;
+    height: 70%;
+}
+
+.reviewtextincard {
+    text-align: center;
+    color: black;
+    margin-bottom: 8%;
+    font-family: "sofia-pro-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+    color: black;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 200%;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.flexboxes {
+    width: 100%;
+    border: 2px solid black;
+    filter: drop-shadow(12px 12px 14px black);
+}
+
+.flexboxes:hover {
+    filter: opacity(40%);
 }
